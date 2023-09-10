@@ -21,7 +21,7 @@ Older versions may work but aren't tested.
 Download and review the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/codeclan/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/deutergraves/laptop/master/mac
 ```
 
 Then run it and start the installation:
@@ -36,8 +36,10 @@ At the end of the installation script, another script will run to attempt to che
 
 You can repeat this by running the following lines in terminal:
 
+*NB* This is the test for the full `og_mac` script. Keeping it for reference only, won't work if running my tiny little script
+
 ```sh
-curl --remote-name https://raw.githubusercontent.com/codeclan/laptop/master/laptop_install_test
+curl --remote-name https://raw.githubusercontent.com/deutergraves/laptop/master/laptop_install_test
 sh laptop_install_test
 ```
 ## What it sets up
